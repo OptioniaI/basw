@@ -1,0 +1,8 @@
+local p = workspace.Baseplate:Clone()
+p.Name = 'Underground'
+p.BrickColor = BrickColor.Random()
+p.Parent = workspace
+p.CanCollide = true
+p.Anchored = true
+p.Size = Vector3.new(2048, 10.5, 2048)
+p.CFrame = workspace.Baseplate.CFrame * CFrame.new(0, -10.8, 0)
