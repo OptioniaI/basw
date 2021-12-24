@@ -6,4 +6,4 @@ p.CanCollide = true
 p.Anchored = true
 p.Size = Vector3.new(2048, 10.5, 2048)
 p.CFrame = workspace.Baseplate.CFrame * CFrame.new(0, -10.9, 0)
-workspace.Baseplate.CanCollide = false
+game.Workspace.Baseplate.CanCollide = false
